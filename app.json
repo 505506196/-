@@ -1,0 +1,43 @@
+{
+  "pages": [
+      "page/index/myindex",
+      "page/creat/creat",
+      "page/meijia/meijia",
+      "page/profile/profile"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "美家",
+    "navigationBarBackgroundColor": "#303131",
+    "backgroundColor": "#303131"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#e47d4a",
+    "borderStyle": "white",
+    "backgroundColor": "#303131",
+    "list":[{
+            "pagePath": "page/index/myindex",
+            "iconPath": "image/home.png",
+            "selectedIconPath": "image/home.active.png",
+            "text": "美家头条"
+              }, {
+              "pagePath": "page/creat/creat",
+              "iconPath": "image/previve.png",
+              "selectedIconPath": "image/previve.active.png",
+              "text": "制作美家"
+              }, {
+              "pagePath": "page/profile/profile",
+              "iconPath": "image/profile.png",
+              "selectedIconPath": "image/profile.active.png",
+              "text": "个人中心"
+              }]
+      },
+ "networkTimeout": {
+            "request": 10000,
+            "connectSocket": 10000,
+            "uploadFile": 10000,
+            "downloadFile": 10000
+          },
+          "debug": true
+}

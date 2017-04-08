@@ -1,0 +1,28 @@
+<view class="container">
+<view class="imgs">
+        <image class="img" src="/image/main-cover.jpg" />
+</view>
+  <view class="menu-list">
+    <block wx:for-items="{{menuList}}" wx:for-item="menuItem">
+      <view class="menu-item">
+        <view class="menu-item-main" id="{{index}}" bindtap="tapMenuItem">
+          <text class="menu-item-name">{{menuItem.name}}</text>
+          <image
+            class="menu-item-arrow {{menuItem.opened ? 'open' : 'close'}} {{menuItem.url ? 'url' : ''}}"
+            src="/image/open_2.png">
+          </image>
+        </view>
+        <view class="menu-item-api-list {{menuItem.opened ? 'open' : 'close'}}">
+          <block wx:for-items="{{menuItem.APIList}}" wx:for-item="APIItem">
+              <view class="menu-item-api-item" style="{{index === 0 ? 'border-top:none;' : ''}}">
+                <view class="menu-item-api-item-text">
+                  <text class="menu-item-api-item-text-zhname">{{APIItem.zhName}}</text>
+                  <textarea placeholder="这是一个可以自动聚焦的textarea" focus="true" />
+                </view>
+              </view>
+          </block>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

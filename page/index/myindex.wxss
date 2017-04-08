@@ -1,0 +1,69 @@
+.img{
+    margin-left:8%;
+    height: 300rpx;
+}
+
+.img_body{
+    width: 100%;    
+}
+.index{
+    background-color: #FBF9FE;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    flex: 1;
+    min-height: 100%;
+    font-size: 16px;
+}
+.swiper {
+  height: 350rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.head{
+    padding: 40px;
+}
+.body{
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.title{
+    margin-top: 5px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    height: 25px;
+    position:relative;
+    width:100%;
+}
+.titleH1{
+    margin-top: 4px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 18px;
+    width: 100px;
+    height:40px;
+}
+.btn{
+    color: #868686;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    margin-top: 5px;
+    font-size: 10px;
+    width: 100px;
+    height:40px;
+    position:absolute;
+    right:0px;
+}
+.board-img {
+  width: 100rpx;
+  height: 20px;
+  margin-top: 0px;
+    position:absolute;
+    right:0px;
+}
+.date{
+    color: #575757;
+    text-align:center;
+    height: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}

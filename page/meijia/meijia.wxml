@@ -1,0 +1,17 @@
+<view class="imgs">
+        <image class="img" src="/image/main-cover.jpg" />
+</view>
+<view class="body">
+    <scroll-view scroll-y="true" height="100%">
+      <block wx:for="{{boards}}">
+       
+          <view class="board">
+            <view class="board-info">
+              <text class="board-name">{{item.name}}</text>
+              <image class="board-img" src="/image/open.png" mode="aspectFill"/>
+            </view>
+          </view>
+
+      </block>
+    </scroll-view>
+</view>
